@@ -1,5 +1,5 @@
-# dream_ai
-This project is for creating a generative AI-powered HR chatbot for the CBA office contest 
+# AILA
+This project is for creating a generative AI-powered Leave Assistant chatbot for the CBA office contest 
 
 AILA is a AI driven Leave assistant which can do below assistance.
 
@@ -22,3 +22,18 @@ DB : RDS
 Programming languages : Python, html , CSS
 
 AWS services : Lambda , Bedrock, S3, IAM, RDS, Cloud watch
+1. pip install fastapi uvicorn
+2. pip install python-multipart
+3. pip install pydantic-settings
+4. pip install python-jose[cryptography]
+5. pip install passlib[bcrypt]
+6. pip install pydantic-settings
+7. pip install python-multipart
+8. pip install boto3
+9. pip install jinja2
+10. pip install sqlalchemy
+11. pip install pymysql
+12. pip install pydantic[email]
+
+****command to run the service****
+```uvicorn app.main:app --reload``` 
